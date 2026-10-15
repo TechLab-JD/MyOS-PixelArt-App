@@ -1,0 +1,27 @@
+<div class="app-window" id="PixelArtApp">
+  <div class="app-header">
+    <span class="app-title">&#127912; Pixel Art</span>
+    <div class="app-controls"><button class="minimize-btn">&ndash;</button><button class="close-btn">&times;</button></div>
+  </div>
+  <div class="app-content">
+    <div class="pa">
+      <div class="pa-bar">
+        <input type="color" id="pa-color" value="#e23d3d" title="Pick a color">
+        <button id="pa-erase" class="pa-btn" title="Toggle eraser">Eraser</button>
+        <label class="pa-sz">Grid
+          <select id="pa-size">
+            <option value="8">8</option>
+            <option value="16" selected>16</option>
+            <option value="24">24</option>
+            <option value="32">32</option>
+          </select>
+        </label>
+        <button id="pa-clear" class="pa-btn">Clear</button>
+        <button id="pa-export" class="pa-btn pa-pri">Export PNG</button>
+      </div>
+      <div class="pa-pal" id="pa-pal"></div>
+      <div class="pa-wrap"><div class="pa-grid" id="pa-grid"></div></div>
+    </div>
+  </div>
+  <div class="resize-handle"></div>
+</div>

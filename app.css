@@ -1,0 +1,14 @@
+#PixelArtApp .pa { display:flex; flex-direction:column; height:100%; box-sizing:border-box; padding:10px; gap:8px; background:#1b1f27; color:#dfe6ee; font:13px/1.4 system-ui,-apple-system,Segoe UI,sans-serif; }
+#PixelArtApp .pa-bar { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+#PixelArtApp .pa-btn { background:#2b3240; color:#dfe6ee; border:1px solid #3a4150; border-radius:6px; padding:5px 10px; cursor:pointer; font:inherit; }
+#PixelArtApp .pa-btn:hover { background:#353d4d; }
+#PixelArtApp .pa-btn.pa-pri { background:#4e8cff; border-color:#4e8cff; color:#fff; }
+#PixelArtApp .pa-btn.on { outline:2px solid #4e8cff; outline-offset:1px; }
+#PixelArtApp .pa-sz { display:flex; align-items:center; gap:5px; }
+#PixelArtApp .pa-sz select { background:#2b3240; color:#dfe6ee; border:1px solid #3a4150; border-radius:6px; padding:4px; font:inherit; }
+#PixelArtApp input[type=color] { width:36px; height:30px; border:none; background:none; cursor:pointer; padding:0; }
+#PixelArtApp .pa-pal { display:flex; gap:4px; flex-wrap:wrap; }
+#PixelArtApp .pa-sw { width:20px; height:20px; border-radius:4px; cursor:pointer; border:1px solid rgba(255,255,255,.18); }
+#PixelArtApp .pa-wrap { flex:1; overflow:auto; display:flex; align-items:center; justify-content:center; }
+#PixelArtApp .pa-grid { display:grid; gap:1px; background:#0d0f14; border:1px solid #333; padding:1px; touch-action:none; user-select:none; }
+#PixelArtApp .pa-cell { background:#20242e; }
